@@ -1,0 +1,48 @@
+/* ADD styling for all of the divs in post.html to match  */
+
+.navigation a{
+    text-decoration: none;
+}
+
+.back-button{
+    border: 2px solid #495097;
+    border-radius: 4px;
+    padding: 4px 8px 4px 8px;
+    text-emphasis: none; 
+    color: #495097;
+}
+
+.post-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:0px;
+    padding: 0px;
+}
+
+#individual-post-title {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#individual-post-date {
+    margin-top:24px;
+    margin-bottom: 24px;
+    color: gray;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 24px;
+    border-bottom: 1px lightgray solid;
+    border-top: 1px lightgray solid;
+}
+
+#individual-post-content {
+    padding-left: 24px;
+    padding-right: 16px;
+    color: #495057;
+    line-height: 1.4;
+}
+
+
